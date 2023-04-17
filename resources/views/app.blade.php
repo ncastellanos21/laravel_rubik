@@ -79,6 +79,6 @@
         </div>
       </nav>
       @yield('content');
-      @yield('formulari');
+      @yield('compete');
 </body>
 </html>

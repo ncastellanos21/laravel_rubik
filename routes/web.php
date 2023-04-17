@@ -21,8 +21,8 @@ Route::get('/inici', function() {
     return view('index');
 });
 
-Route::get('/formulari', function() {
-    return view('formulari');
+Route::get('/compete', function() {
+    return view('compete');
 }) -> name('todos');
 
 Route::post('index', [elmeucontrolador::class, 'insert']);
